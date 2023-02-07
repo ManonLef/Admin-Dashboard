@@ -148,5 +148,25 @@ li {
   padding: 30px;
   border-radius: 10px;
   display: grid;
+  gap: 5px;
+  align-items: center;
+}
+
+.random-users {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
 }
+
+.trending-avatar {
+  grid-row: 1/-1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.username-and-handle {
+  grid-row: 3/-3;
+}
+
