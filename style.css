@@ -6,12 +6,39 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  grid-template-rows: 2fr 6fr;
 }
 
 .header {
   background-color: pink;
   padding: 10px;
   grid-column: 2/3;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.header-top {
+  display: grid;
+  grid-template-columns:3fr 2fr;
+  align-items: space-between;
+  align-content: center;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+}
+
+.searchbar {
+  background-color: gray;
+  border-radius: 15px;
+  flex: 1;
+}
+
+.profile {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
 }
 
 .sidebar {
