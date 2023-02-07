@@ -24,7 +24,6 @@
 .header-top {
   display: grid;
   grid-template-columns:3fr 2fr;
-  align-items: center;
   padding-right: 5px;
   gap: 10px;
 }
@@ -47,13 +46,15 @@
   border-radius: 15px;
   height: 30px;
   flex: 1;
+  padding-inline-start: 20px;
 }
 
 .profile,
 .buttons {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .header-bottom {
