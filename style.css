@@ -13,7 +13,7 @@
 
 .header {
   background-color: pink;
-  padding: 10px;
+  padding: 20px;
   grid-column: 2/3;
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -30,14 +30,21 @@
 .search {
   display: flex;
   gap: 10px;
+  align-items: center;
+}
+
+.magnify-icon {
+  margin-top: 10px;
+  /* filter: invert(100%); to make icons white*/
 }
 
 .searchbar {
-  background-color: gray;
+  background-color: white;
+  border: none;
+  font-size: small;
   border-radius: 15px;
-  height: 20px;
+  height: 30px;
   flex: 1;
-  
 }
 
 .profile,
