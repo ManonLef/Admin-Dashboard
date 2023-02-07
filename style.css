@@ -120,6 +120,7 @@ li {
   gap: 5px;
   grid-template-columns: 1fr 1fr;
   border-radius: 10px;
+  border-left: 8px solid purple;
 }
 
 .cards > :nth-child(1),
