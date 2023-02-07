@@ -12,7 +12,7 @@
 }
 
 .header {
-  background-color: pink;
+  background-color: white;
   padding: 20px;
   grid-column: 2/3;
   display: grid;
@@ -39,7 +39,7 @@
 }
 
 .searchbar {
-  background-color: white;
+  background-color: rgb(229, 229, 229);
   border: none;
   font-size: small;
   border-radius: 15px;
@@ -68,7 +68,7 @@
 }
 
 button {
-  background-color: purple;
+  background-color: rgb(24, 134, 112);
   color: white;
   width: 5rem;
   padding: 5px;
@@ -77,13 +77,14 @@ button {
 }
 
 .sidebar {
-  background-color: lightblue;
+  background-color: rgb(24, 134, 112);
   padding: 25px;
   grid-row: 1/-1;
 }
 
 .sidebar > * {
   margin-bottom: 15px;
+  filter: invert(100%);
 }
 
 hr {
@@ -103,7 +104,7 @@ li,
 }
 
 .content {
-  background-color: lightcoral;
+  background-color: rgb(229, 229, 229);
   padding: 20px 20px 60px 20px;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -135,7 +136,7 @@ li,
   gap: 5px;
   grid-template-columns: 1fr 1fr;
   border-radius: 10px;
-  border-left: 8px solid purple;
+  border-left: 8px solid rgb(215, 187, 62);
 }
 
 .cards > :nth-child(1),
