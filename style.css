@@ -20,8 +20,8 @@
 .header-top {
   display: grid;
   grid-template-columns:3fr 2fr;
-  align-items: space-between;
-  align-content: center;
+  align-items: center;
+  padding-right: 5px;
 }
 
 .search {
@@ -32,13 +32,42 @@
 .searchbar {
   background-color: gray;
   border-radius: 15px;
+  height: 20px;
   flex: 1;
+  
 }
 
 .profile {
   display: flex;
   gap: 10px;
   justify-content: flex-end;
+}
+
+.header-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  width: 5rem;
+  padding: 3px;
+  border: none;
+  border-radius: 10px;
 }
 
 .sidebar {
