@@ -6,3 +6,7 @@
 
 ## 20230208
 - freepik credit <img src="./resources/magnify.svg" alt="icon of a group of people" width="35px">
+- pink color #FAC6B5
+- taupe color #7B6160
+- orange color #EE6A35
+- dark color #3d3332
