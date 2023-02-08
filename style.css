@@ -4,6 +4,10 @@
   font-size: 20px;
 }
 
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
 .container {
   display: grid;
   grid-template-columns: 2fr 7fr;
@@ -77,7 +81,9 @@ button {
   width: 5rem;
   padding: 5px;
   border: none;
-  border-radius: 15px;
+  border-radius: 30px;
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
 }
 
 .sidebar {
