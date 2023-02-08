@@ -2,6 +2,7 @@
 
 ## Result
 [See the Admin Dashboard Live here](https://manonlef.github.io/Admin-Dashboard/)
+
 ![project preview](./resources/result.png)
 
 ## About this project
