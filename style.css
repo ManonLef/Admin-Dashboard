@@ -234,9 +234,9 @@ li,
 
 .trending-avatar,
 .avatar {
-  outline: 2px solid #EE6A35;
-  outline-offset: -1px;
-  border-radius: 35px;
+  border: 2px solid #EE6A35;
+  background-color: #EE6A35;
+  border-radius: 50px;
 }
 
 a {
